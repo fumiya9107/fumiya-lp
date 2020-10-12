@@ -272,6 +272,7 @@ header nav ul li a:hover{
   padding-top: 10px;
 }
 
+
 .step{
   margin-top: 60px;
   margin-bottom: 200px;
@@ -397,25 +398,25 @@ header nav ul li a:hover{
 }
 
 .prof_image p{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  padding:30px 30px;
+  padding: 30px;
   max-width: 300px;
   border: 1px solid #000080;
   border-radius: 5px;
   box-shadow: 2px 3px 3px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 20px;
   max-width:200px;
 }
 
 .right_image{
-  width:200px;
+  width:100px;
 }
 
 .lp_image{
-  width: 250px;
+  width: 150px;
 }
 
 
@@ -566,6 +567,18 @@ header nav ul li a:hover{
     height:700px;
   }
 
+  .prof_image p{
+    margin-top: 20px;
+  }
+
+  .right_image{
+    width:150px;
+  }
+
+  .lp_image{
+    width: 200px;
+  }
+
 
 }
 
@@ -573,6 +586,18 @@ header nav ul li a:hover{
   .step_contents{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .prof_image p{
+    margin-top: 40px;
+  }
+
+  .right_image{
+    width:200px;
+  }
+
+  .lp_image{
+    width: 250px;
   }
 }
 
