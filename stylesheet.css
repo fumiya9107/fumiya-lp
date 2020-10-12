@@ -217,15 +217,16 @@ header{
   z-index: 10;
 }
 
-header nav ul li{
-  display: inline-block;
+header nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   line-height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
 header nav ul li a{
   color:white;
+  font-size: 1.2rem;
 }
 
 header nav ul li a:hover{
@@ -242,24 +243,32 @@ header nav ul li a:hover{
   background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/2mdpi.jpg?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 300px;
   width:100%;
   text-align: center;
   color:white;
-  padding-top: 20px;
+  padding-top: 30px;
   margin-bottom: 200px;
 }
  .counseling h1{
-   font-size: 1.5rem;
+   font-size: 2.0rem;
    padding-bottom: 10px;
+   color:black;
  }
 
  .counseling span{
    color:#ff7bac;
  }
 
+ .counseling p{
+   font-size: 1.5rem;
+   color:black;
+   font-weight: bold;
+   padding-top: 10px;
+ }
+
 .counseling img{
-  width:100px;
+  width:250px;
   padding-top: 10px;
 }
 
@@ -269,9 +278,8 @@ header nav ul li a:hover{
 
 }
 .step h1{
-  font-size:1.5rem;
+  font-size:2.0rem;
   text-align: center;
-
 }
 
 .step h1 span{
@@ -288,24 +296,30 @@ header nav ul li a:hover{
   color: white;
   width: 60%;
   border-radius: 10px;
-  margin: 20px auto;
+  margin: 30px auto;
   padding:10px 0 10px 0;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
 }
 
 .step_title{
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .step_text{
   padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.step_img{
+  width:200px;
+  padding:20px 0;
 }
 
 .recomend{
   background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/209b4ba5dbb88826d9ca551f51dd28f5_t.jpeg?raw=true);
-  height:500px;
+  height:850px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -319,27 +333,29 @@ header nav ul li a:hover{
   max-width: 768px;
   margin: 0 auto;
   background-color: white;
-  padding: 40px 15px 40px 15px;
+  padding: 50px 15px ;
   border: 2px solid #00d2e2;
 }
 
 .recomend_contents h1{
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   padding-bottom: 20px;
 }
 
 .recomend_contents ul li{
   list-style-position: inside;
-  line-height: 40px;
+  line-height: 60px;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .recomend_contents p{
   text-align: center;
-  line-height: 20px;
+  line-height: 40px;
   padding-top: 20px;
   font-weight: bold;
+  font-size: 1.8rem;
 }
 
 .prof{
@@ -348,7 +364,7 @@ header nav ul li a:hover{
 
 .prof h1{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   color: #000080;
   padding-bottom: 40px;
 }
@@ -364,14 +380,16 @@ header nav ul li a:hover{
 }
 
 .prof_contents p{
-  font-size: 1.2rem;
-  line-height: 40px;
+  font-size: 1.5rem;
+  line-height: 60px;
   text-align: center;
   font-weight: bold;
 
 }
 
 .prof_image{
+  width: 80%;
+  margin:0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height:200px;
@@ -379,30 +397,32 @@ header nav ul li a:hover{
 }
 
 .prof_image p{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
   text-align: center;
-  padding:15px 0 15px 0;
+  padding:30px 30px;
+  max-width: 300px;
   border: 1px solid #000080;
   border-radius: 5px;
   box-shadow: 2px 3px 3px;
-  margin-top: 15px;
+  margin-top: 40px;
   margin-left: 20px;
   max-width:200px;
 }
 
 .right_image{
-  width:100px;
+  width:200px;
 }
 
 .lp_image{
-  width: 150px;
+  width: 250px;
 }
 
 
 
 .history h1{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   color: #000080;
   margin-bottom: 80px;
 }
@@ -412,38 +432,43 @@ header nav ul li a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height:500px;
+  height:900px;
   margin-bottom: 80px;
 }
 
 .history_visual_contents{
   width:80%;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 120px;
+}
+
+.history_visual_contents p{
+  font-size: 1.5rem;
+
 }
 
 .history1{
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
 .history2{
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
 .history3{
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
 .history4{
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
 .history5{
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
@@ -453,13 +478,15 @@ header nav ul li a:hover{
 
 .consal h1{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   color: #000080;
   margin-bottom: 50px;
 }
 
 .consal_contents{
   display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
@@ -469,7 +496,7 @@ header nav ul li a:hover{
 }
 
 .consal_visual_contents img{
-  width:80px;
+  width:120px;
 }
 
 .consal_detail{
@@ -478,6 +505,7 @@ header nav ul li a:hover{
 
 .consal_detail p{
   padding-top: 5px;
+  font-size: 1.2rem;
 }
 
 .consal_text{
@@ -486,6 +514,7 @@ header nav ul li a:hover{
   border: 1px solid black;
   box-shadow: 2px 3px 3px rgba(85, 85, 85, 0.452);
   padding:20px;
+  font-size: 1.5rem;
 }
 
 .q_and_a{
@@ -494,13 +523,18 @@ header nav ul li a:hover{
 
 .q_and_a h1{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   color: #000080;
   margin-bottom: 50px;
 }
 
-.q_and_a p{
+.q_and_a_contents{
+  width: 50%;
+  margin: 0 auto;
+}
+.q_and_a_contents p{
   margin: 0 30px;
+  font-size: 1.5rem;
 }
 
 .question{
@@ -523,181 +557,23 @@ header nav ul li a:hover{
   background: #000080;
 }
 
-@media(min-width:768px){
-  header nav ul li{
-    padding-left: 50px;
-    padding-right: 50px;
+@media (min-width:768px) {
+  .recomend{
+    height: 600px;
   }
 
-  .counceling{
-    height:260px;
-  }
-
-  .step_contents{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .prof_image p{
-    padding:30px 0 30px 0;
-    margin-top: 20px;
-    margin-left: 60px;
-  }
-
-  .right_image{
-    width:150px;
-  }
-
-  .lp_image{
-    width:200px;
-  }
-
-  .history_visual_contents{
-    padding-top: 60px;
-  }
-
-  .history1{
-    font-size: 1.2rem;
-  }
-
-  .history2{
-    font-size: 1.2rem;
-  }
-
-  .history3{
-    font-size: 1.2rem;
-  }
-
-  .history4{
-    font-size: 1.2rem;
-  }
-
-  .history5{
-    font-size: 1.2rem;
-  }
-
-  .q_and_a p{
-    margin: 0 200px;
+  .history_contents{
+    height:700px;
   }
 
 
 }
 
-@media(min-width:1200px){
-  header nav ul li{
-    padding-left: 80px;
-    padding-right: 80px;
+@media (min-width:1200px){
+  .step_contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .counseling{
-    height:200px;
-    padding-top: 30px;
-  }
-
-  .counseling h1{
-    font-size: 1.8rem;
-  }
-  .counseling p{
-    font-size: 1.2rem;
-  }
-
-  .counseling img{
-    width:150px;
-  }
-
-  .step h1{
-    font-size: 2.0rem;
-    padding-bottom: 30px;
-  }
-
-  .recomend{
-    padding-top: 100px;
-  }
-  .recomend_contents h1{
-    font-size: 1.5rem;
-  }
-
-  .recomend_contents ul li{
-    font-size: 1.2rem;
-    line-height: 50px;
-  }
-
-  .recomend_contents p{
-    font-size: 1.5rem;
-    line-height: 25px;
-  }
-
-  .prof h1{
-    font-size: 2.0rem;
-  }
-  .prof_contents p{
-    font-size: 1.5rem;
-    line-height: 60px;
-  }
-
-  .prof_image{
-    max-width: 1200px;
-    margin: 0 auto;
-    height:300px;
-  }
-
-  .prof_image p{
-    font-size: 2.0rem;
-    padding:40px;
-  }
-
-  .right_image{
-    width:200px;
-  }
-
-  .lp_image{
-    width:250px;
-  }
-
-  .history_contents{
-    height:500px;
-  }
-
-  .history1{
-    font-size: 1.5rem;
-  }
-
-  .history2{
-    font-size: 1.5rem;
-  }
-
-  .history3{
-    font-size: 1.5rem;
-  }
-
-  .history4{
-    font-size: 1.5rem;
-  }
-
-  .history5{
-    font-size: 1.5rem;
-  }
-
-  .consal_contents{
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .consal_visual_contents img{
-    width: 120px;
-  }
-  .consal_text{
-    margin-left: 30px;
-  }
-  .consal_text p{
-    font-size: 1.2rem;
-  }
-
-  .q_and_a p{
-    margin: 0 300px;
-    font-size: 1.2rem;
-  }
-
 }
 
 
