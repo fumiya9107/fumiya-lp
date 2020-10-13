@@ -441,11 +441,12 @@ header nav ul li a:hover{
 .history_visual_contents{
   width:100%;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .history_visual_contents p{
   font-size: 1.5rem;
+  line-height: 35px;
 }
 
 .history1{
@@ -579,10 +580,15 @@ header nav ul li a:hover{
     width: 200px;
   }
 
-  
+  .history_contents{
+    height:850px;
+  }
 
+  .history_visual_contents{
+    padding-top: 100px;
+  }
   .history_visual_contents p{
-
+    font-size: 2.0rem;
   }
 
 
