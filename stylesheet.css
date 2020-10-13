@@ -434,14 +434,14 @@ header nav ul li a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height:900px;
+  height:500px;
   margin-bottom: 80px;
 }
 
 .history_visual_contents{
   width:90%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .history_visual_contents p{
@@ -472,6 +472,33 @@ header nav ul li a:hover{
 .history5{
   padding-bottom: 20px;
   font-weight: bold;
+}
+
+.history_contents2{
+  background-image: url(image/deb4b4ffacd1eabe76e211ceced18dcb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:700px;
+  margin-bottom: 80px;
+}
+
+.history_visual_contents2{
+  width:90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.history_visual_contents2 p{
+  font-size: 1.5rem;
+  line-height: 35px;
+}
+
+.history_lp h1{
+  text-align: center;
+  font-size: 2.0rem;
+  color: #000080;
+  margin-bottom: 80px;
 }
 
 .consal{
@@ -581,13 +608,24 @@ header nav ul li a:hover{
   }
 
   .history_contents{
-    height:850px;
+    height:400px;
   }
 
   .history_visual_contents{
-    padding-top: 100px;
+    padding-top: 30px;
   }
   .history_visual_contents p{
+    font-size: 2.0rem;
+  }
+
+  .history_contents2{
+    height:600px;
+  }
+
+  .history_visual_contents2{
+    padding-top: 30px;
+  }
+  .history_visual_contents2 p{
     font-size: 2.0rem;
   }
 
@@ -611,6 +649,11 @@ header nav ul li a:hover{
   .lp_image{
     width: 250px;
   }
+
+  .history_visual_contents2{
+    padding-top: 60px;
+  }
+
 
 }
 
