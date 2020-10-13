@@ -236,6 +236,7 @@ header nav ul li a:hover{
 .top_wrapper img{
   width: 100%;
 
+
 }
 
 .counseling{
@@ -275,7 +276,7 @@ header nav ul li a:hover{
 
 .step{
   margin-top: 60px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 
 }
 .step h1{
@@ -346,9 +347,9 @@ header nav ul li a:hover{
 
 .recomend_contents ul li{
   list-style-position: inside;
-  line-height: 60px;
-  text-align: center;
+  margin-bottom: 20px;
   font-size: 1.5rem;
+  border-bottom: 1px solid black;
 }
 
 .recomend_contents p{
@@ -438,14 +439,13 @@ header nav ul li a:hover{
 }
 
 .history_visual_contents{
-  width:80%;
+  width:100%;
   margin: 0 auto;
   padding-top: 120px;
 }
 
 .history_visual_contents p{
   font-size: 1.5rem;
-
 }
 
 .history1{
@@ -579,6 +579,14 @@ header nav ul li a:hover{
     width: 200px;
   }
 
+  .history_contents{
+    height: 1200px;
+  }
+
+  .history_visual_contents p{
+    font-size: 2.5rem;
+  }
+
 
 }
 
@@ -599,6 +607,7 @@ header nav ul li a:hover{
   .lp_image{
     width: 250px;
   }
+
 }
 
 
