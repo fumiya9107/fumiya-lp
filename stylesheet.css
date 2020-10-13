@@ -227,6 +227,7 @@ header nav ul {
 header nav ul li a{
   color:white;
   font-size: 1.2rem;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 header nav ul li a:hover{
@@ -253,8 +254,9 @@ header nav ul li a:hover{
 }
  .counseling h1{
    font-size: 2.0rem;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
    color:black;
+   font-family: 'Hind Madurai', sans-serif;
  }
 
  .counseling span{
@@ -265,12 +267,17 @@ header nav ul li a:hover{
    font-size: 1.5rem;
    color:black;
    font-weight: bold;
-   padding-top: 10px;
+   font-family: 'Hind Madurai', sans-serif;
+   margin-bottom: 30px;
  }
 
-.counseling img{
-  width:250px;
-  padding-top: 10px;
+.counseling a{
+  background-color: #7DD706;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.0rem;
+  border-radius: 10px;
 }
 
 
@@ -282,6 +289,7 @@ header nav ul li a:hover{
 .step h1{
   font-size:2.0rem;
   text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .step h1 span{
@@ -290,6 +298,10 @@ header nav ul li a:hover{
 
 .step_contents{
   text-align: center;
+}
+
+.step_visual_contents p{
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 
@@ -343,6 +355,7 @@ header nav ul li a:hover{
   text-align: center;
   font-size: 2.0rem;
   padding-bottom: 20px;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .recomend_contents ul li{
@@ -350,6 +363,8 @@ header nav ul li a:hover{
   margin-bottom: 20px;
   font-size: 1.5rem;
   border-bottom: 1px solid black;
+  font-weight: bold;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .recomend_contents p{
@@ -358,6 +373,7 @@ header nav ul li a:hover{
   padding-top: 20px;
   font-weight: bold;
   font-size: 1.8rem;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .prof{
@@ -369,6 +385,7 @@ header nav ul li a:hover{
   font-size: 2.0rem;
   color: #000080;
   padding-bottom: 40px;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .prof_contents{
@@ -386,6 +403,7 @@ header nav ul li a:hover{
   line-height: 60px;
   text-align: center;
   font-weight: bold;
+  font-family: 'Hind Madurai', sans-serif;
 
 }
 
@@ -410,6 +428,7 @@ header nav ul li a:hover{
   margin-top: 10px;
   margin-left: 20px;
   max-width:200px;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .right_image{
@@ -427,6 +446,7 @@ header nav ul li a:hover{
   font-size: 2.0rem;
   color: #000080;
   margin-bottom: 80px;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .history_contents{
@@ -434,7 +454,7 @@ header nav ul li a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height:500px;
+  height:1200px;
   margin-bottom: 80px;
 }
 
@@ -447,6 +467,8 @@ header nav ul li a:hover{
 .history_visual_contents p{
   font-size: 1.5rem;
   line-height: 35px;
+  font-family: 'Hind Madurai', sans-serif;
+
 }
 
 .history1{
@@ -455,7 +477,7 @@ header nav ul li a:hover{
 }
 
 .history2{
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   font-weight: bold;
 }
 
@@ -474,33 +496,6 @@ header nav ul li a:hover{
   font-weight: bold;
 }
 
-.history_contents2{
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/mountain_00002.jpg?raw=true);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height:700px;
-  margin-bottom: 80px;
-}
-
-.history_visual_contents2{
-  width:90%;
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-.history_visual_contents2 p{
-  font-size: 1.5rem;
-  line-height: 35px;
-}
-
-.history_lp h1{
-  text-align: center;
-  font-size: 2.0rem;
-  color: #000080;
-  margin-bottom: 80px;
-}
-
 .consal{
   margin-bottom: 200px;
 }
@@ -510,6 +505,7 @@ header nav ul li a:hover{
   font-size: 2.0rem;
   color: #000080;
   margin-bottom: 50px;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .consal_contents{
@@ -535,6 +531,8 @@ header nav ul li a:hover{
 .consal_detail p{
   padding-top: 5px;
   font-size: 1.2rem;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
 }
 
 .consal_text{
@@ -544,6 +542,8 @@ header nav ul li a:hover{
   box-shadow: 2px 3px 3px rgba(85, 85, 85, 0.452);
   padding:20px;
   font-size: 1.5rem;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
 }
 
 .q_and_a{
@@ -555,6 +555,7 @@ header nav ul li a:hover{
   font-size: 2.0rem;
   color: #000080;
   margin-bottom: 50px;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .q_and_a_contents{
@@ -564,6 +565,8 @@ header nav ul li a:hover{
 .q_and_a_contents p{
   margin: 0 30px;
   font-size: 1.5rem;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
 }
 
 .question{
@@ -587,12 +590,15 @@ header nav ul li a:hover{
 }
 
 @media (min-width:768px) {
-  .recomend{
-    height: 600px;
+
+  .counseling a{
+    padding: 20px;
+    font-size: 2.0rem;
+    border-radius: 10px;
   }
 
-  .history_contents{
-    height:700px;
+  .recomend{
+    height: 600px;
   }
 
   .prof_image p{
@@ -608,7 +614,7 @@ header nav ul li a:hover{
   }
 
   .history_contents{
-    height:400px;
+    height:1100px;
   }
 
   .history_visual_contents{
