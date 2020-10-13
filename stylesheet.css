@@ -287,13 +287,10 @@ header nav ul li a:hover{
 
 }
 .step h1{
+  color: #000080;
   font-size:2.0rem;
   text-align: center;
   font-family: 'Hind Madurai', sans-serif;
-}
-
-.step h1 span{
-  color:#00d2e2;
 }
 
 .step_contents{
@@ -450,7 +447,7 @@ header nav ul li a:hover{
 }
 
 .history_contents{
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/mountain_00002.jpg?raw=true);
+  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/vintage-blue-aquarelle-painted-wall-background-paint-decoration-backdrop-color-pop-design_1962-1379.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -548,7 +545,7 @@ header nav ul li a:hover{
 
 .q_and_a{
   margin-bottom: 150px;
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/17-101686.jpeg);
+  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/mountain_00002.jpg?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -591,10 +588,22 @@ header nav ul li a:hover{
 }
 
 @media (min-width:768px) {
+  .counseling{
+    height:400px;
+  }
 
+  .counseling h1{
+    font-size: 3.0rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .counseling p{
+    font-size:2.0rem;
+    padding-bottom: 50px;
+  }
   .counseling a{
     padding: 20px;
-    font-size: 2.0rem;
+    font-size: 2.3rem;
     border-radius: 10px;
   }
 
