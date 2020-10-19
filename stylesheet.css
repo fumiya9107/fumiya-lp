@@ -240,15 +240,13 @@ header nav ul li a:hover{
 
 .counseling{
   margin-top: 0;
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/2mdpi.jpg?raw=true);
+  background-image: url(image/2mdpi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 1000px;
   width:100%;
   text-align: center;
   color:white;
-  padding-top: 30px;
-  margin-bottom: 100px;
 }
  .counseling h1{
    font-size: 2.0rem;
@@ -323,7 +321,7 @@ header nav ul li a:hover{
 }
 
 .recomend{
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/209b4ba5dbb88826d9ca551f51dd28f5_t.jpeg?raw=true);
+  background-image: url(image/209b4ba5dbb88826d9ca551f51dd28f5_t.jpeg);
   height:850px;
   width: 100%;
   background-repeat: no-repeat;
@@ -377,6 +375,7 @@ header nav ul li a:hover{
   color: #000080;
   padding-bottom: 40px;
   font-family: 'Hind Madurai', sans-serif;
+  margin-top: 60px;
 }
 
 .prof_contents{
@@ -431,64 +430,9 @@ header nav ul li a:hover{
 }
 
 
-
-.history h1{
-  text-align: center;
-  font-size: 2.0rem;
-  color: #000080;
-  margin-bottom: 80px;
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-.history_contents{
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/vintage-blue-aquarelle-painted-wall-background-paint-decoration-backdrop-color-pop-design_1962-1379.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height:1200px;
-  margin-bottom: 80px;
-}
-
-.history_visual_contents{
-  width:90%;
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-.history_visual_contents p{
-  font-size: 1.5rem;
-  line-height: 35px;
-  font-family: 'Hind Madurai', sans-serif;
-
-}
-
-.history1{
-  padding-bottom: 20px;
-  font-weight: bold;
-}
-
-.history2{
-  padding-bottom: 100px;
-  font-weight: bold;
-}
-
-.history3{
-  padding-bottom: 20px;
-  font-weight: bold;
-}
-
-.history4{
-  padding-bottom: 20px;
-  font-weight: bold;
-}
-
-.history5{
-  padding-bottom: 20px;
-  font-weight: bold;
-}
-
 .consal{
   margin-bottom: 200px;
+  margin-top: 60px;
 }
 
 .consal h1{
@@ -539,7 +483,7 @@ header nav ul li a:hover{
 
 .q_and_a{
   margin-bottom: 150px;
-  background-image: url(https://github.com/fumiya9107/fumiya-lp/blob/main/mountain_00002.jpg?raw=true);
+  background-image: url(image/mountain_00002.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -617,27 +561,7 @@ header nav ul li a:hover{
     width: 200px;
   }
 
-  .history_contents{
-    height:1100px;
-  }
 
-  .history_visual_contents{
-    padding-top: 30px;
-  }
-  .history_visual_contents p{
-    font-size: 2.0rem;
-  }
-
-  .history_contents2{
-    height:600px;
-  }
-
-  .history_visual_contents2{
-    padding-top: 30px;
-  }
-  .history_visual_contents2 p{
-    font-size: 2.0rem;
-  }
 
 
 }
@@ -660,9 +584,6 @@ header nav ul li a:hover{
     width: 250px;
   }
 
-  .history_visual_contents2{
-    padding-top: 60px;
-  }
 
 
 }
