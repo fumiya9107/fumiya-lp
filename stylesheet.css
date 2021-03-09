@@ -203,394 +203,204 @@ input, select {
     vertical-align:middle;
 }
 
-*::after{
-  box-sizing: border-box;
-}
-
-header{
-  width: 100%;
-  position: fixed;
-  height:60px;
-  text-align: center;
-  background-color: #000080;
-  top: 0;
-  z-index: 10;
-}
-
-header nav ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  line-height: 60px;
-
-}
-
-header nav ul li a{
-  color:white;
-  font-size: 1.2rem;
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-header nav ul li a:hover{
-  border-bottom: 1px solid white;
-}
-
-.top_wrapper img{
-  width: 100%;
-}
-
-.counseling{
-  margin-top: 0;
-  background-image: url(image/2mdpi.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
+body{
   width:100%;
-  text-align: center;
-  color:white;
-}
- .counseling h1{
-   font-size: 2.0rem;
-   padding-bottom: 20px;
-   font-family: 'Hind Madurai', sans-serif;
-   color:#FF9933;
- }
-
- .counseling p{
-   font-size: 1.5rem;
-   color:black;
-   font-weight: bold;
-   font-family: 'Hind Madurai', sans-serif;
-   margin-bottom: 40px;
- }
-
-.counseling a{
-  background-color: #7DD706;
-  padding: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 1.0rem;
-  border-radius: 10px;
-}
-
-
-.step{
-  margin-top: 60px;
-  margin-bottom: 100px;
-
-}
-.step h1{
-  color: #000080;
-  font-size:2.0rem;
-  text-align: center;
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-.step_contents{
-  text-align: center;
-}
-
-.step_visual_contents p{
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-
-.number{
-  background-color: #000080;
-  color: white;
-  width: 60%;
-  border-radius: 10px;
-  margin: 30px auto;
-  padding:10px 0 10px 0;
-  font-weight: bold;
-  font-size: 2.0rem;
-}
-
-.step_title{
-  font-weight: bold;
-  font-size: 1.8rem;
-}
-
-.step_text{
-  padding-bottom: 30px;
-  font-size: 1.5rem;
-}
-
-.step_img{
-  width:200px;
-  padding:20px 0;
-}
-
-.recomend{
-  background-image: url(image/209b4ba5dbb88826d9ca551f51dd28f5_t.jpeg);
-  height:850px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-top: 100px;
-
-}
-
-.recomend_contents{
-  width: 80%;
-  max-width: 768px;
   margin: 0 auto;
-  background-color: white;
-  padding: 50px 15px ;
-  border: 2px solid #00d2e2;
 }
 
-.recomend_contents h1{
+/*home*/
+  header{
+    height:70px;
+  }
+
+    header h1{
+        padding-top: 12px;
+        font-size: 24px;
+        margin:0 20px;
+    }
+
+    header p{
+      margin: 0 20px;
+    }
+
+
+
+
+
+/*about*/
+.about{
+  background-color: #EEEEEE;
+  padding-bottom: 100px;
+}
+
+.about h1{
+  font-size: 40px;
   text-align: center;
-  font-size: 2.0rem;
-  padding-bottom: 20px;
-  font-family: 'Hind Madurai', sans-serif;
+  padding-top: 150px;
+  padding-bottom: 10px;
 }
 
-.recomend_contents ul li{
-  list-style-position: inside;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-  border-bottom: 1px solid black;
-  font-weight: bold;
-  font-family: 'Hind Madurai', sans-serif;
-}
 
-.recomend_contents p{
-  text-align: center;
-  line-height: 40px;
-  padding-top: 20px;
-  font-weight: bold;
-  font-size: 1.8rem;
-  font-family: 'Hind Madurai', sans-serif;
+.about_contents_img{
+  margin: 0 20px;
 }
-
-.prof{
-  margin-bottom: 200px;
-}
-
-.prof h1{
-  text-align: center;
-  font-size: 2.0rem;
-  color: #000080;
-  padding-bottom: 40px;
-  font-family: 'Hind Madurai', sans-serif;
-  margin-top: 60px;
-}
-
-.prof_contents{
-  border: 1px solid #000080;
+.about_contents_img img{
+  width:100%;
+  margin-top: 100px;
   border-radius: 5px;
-  padding:40px;
-  width: 80%;
-  margin: 0 auto;
-  box-shadow: 2px 3px 3px;
-  margin-bottom: 100px;
 }
 
-.prof_contents p{
+.about_visual_contents h2{
   font-size: 1.5rem;
-  line-height: 60px;
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Hind Madurai', sans-serif;
-
-}
-
-.prof_image{
-  width: 80%;
-  margin:0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height:200px;
-  text-align: center;
-}
-
-.prof_image p{
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-  padding: 30px;
-  max-width: 300px;
-  border: 1px solid #000080;
-  border-radius: 5px;
-  box-shadow: 2px 3px 3px;
-  margin-top: 10px;
-  margin-left: 20px;
-  max-width:200px;
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-.right_image{
-  width:100px;
-}
-
-.lp_image{
-  width: 150px;
-}
-
-
-.consal{
-  margin-bottom: 200px;
-  margin-top: 60px;
-}
-
-.consal h1{
-  text-align: center;
-  font-size: 2.0rem;
-  color: #000080;
-  margin-bottom: 50px;
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-.consal_contents{
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-}
-
-
-.consal_visual_contents{
-  margin-left: 10px;
-  margin-top: 30px;
-}
-
-.consal_visual_contents img{
-  width:120px;
-}
-
-.consal_detail{
-  text-align: center;
-}
-
-.consal_detail p{
-  padding-top: 5px;
-  font-size: 1.2rem;
-  font-family: 'Hind Madurai', sans-serif;
-  font-weight: bold;
-}
-
-.consal_text{
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 1px solid black;
-  box-shadow: 2px 3px 3px rgba(85, 85, 85, 0.452);
-  padding:20px;
-  font-size: 1.5rem;
-  font-family: 'Hind Madurai', sans-serif;
-  font-weight: bold;
-}
-
-.q_and_a{
-  margin-bottom: 150px;
-  background-image: url(image/mountain_00002.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.q_and_a h1{
-  text-align: center;
-  font-size: 2.0rem;
-  color: #000080;
+  margin-top: 40px;
   padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: 'Hind Madurai', sans-serif;
+  margin-bottom: 20px;
+  margin: 0 20px;
+}
+.about_visual_contents p{
+  line-height: 30px;
+  margin: 0 20px;
+
+
 }
 
-.q_and_a_contents{
-  width: 80%;
-  margin: 0 auto;
-}
-.q_and_a_contents p{
-  margin: 0 30px;
-  font-size: 1.5rem;
-  font-family: 'Hind Madurai', sans-serif;
-  font-weight: bold;
-}
-
-.question{
-  padding-bottom: 20px;
-}
-.question span{
-  color:#000080;
-  padding-right: 10px;
-}
-
-.answer{
+/*work*/
+.work{
+  background-color: #EEEEEE;
   padding-bottom: 50px;
 }
-.answer span{
-  color:red;
-  padding-right: 10px;
+
+.work h1{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 10px;
 }
 
-@media (min-width:768px) {
-  .counseling{
-    height:400px;
-  }
-
-  .counseling h1{
-    font-size: 3.0rem;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .counseling p{
-    font-size:2.0rem;
-    padding-bottom: 40px;
-  }
-  .counseling a{
-    padding: 20px;
-    font-size: 2.3rem;
-    border-radius: 10px;
-  }
-
-  .recomend{
-    height: 600px;
-  }
-
-  .prof_image p{
-    margin-top: 20px;
-  }
-
-  .right_image{
-    width:150px;
-  }
-
-  .lp_image{
-    width: 200px;
-  }
-
-
-
-
+.work_text{
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-@media (min-width:1200px){
-  .step_contents{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .prof_image p{
-    margin-top: 40px;
-  }
-
-  .right_image{
-    width:200px;
-  }
-
-  .lp_image{
-    width: 250px;
-  }
-
-
-
+.work_contents_img{
+  text-align: center;
 }
 
+.work_contents_img img{
+  width:200px;
+  padding-top: 40px;
+}
 
+.work_visual_contents p{
+  text-align: center;
+  color:black;
+  padding-top: 10px;
+}
 
+.contact{
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+.contact h1{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.contact p{
+  padding-bottom: 100px;
+}
+
+iframe{
+  width:400px;
+}
+
+footer{
+  height:100px;
+}
+
+.footer_contents{
+  line-height: 100px;
+  text-align: center;
+}
 
 a{
   text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+/*タブレット版*/
+@media(min-width:780px){
+  /*home*/
+  header h1{
+    margin-left: 40px;
+  }
+
+  header p{
+    margin-left: 40px;
+  }
+
+  .list_img{
+    display: none;
+  }
+
+
+  /*about*/
+.about_contents{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_visual_contents{
+  padding-top: 100px;
+  margin-right: 40px;
+}
+
+.about_contents_img{
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+.about_contents_img img{
+  width:400px;
+}
+
+
+  /*work*/
+  .work_contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  iframe{
+    width:600px;
+  }
+
+}
+
+
+@media(min-width:1200px){
+  header h1{
+    margin-left: 60px;
+  }
+
+  header p{
+    margin-left: 60px;
+  }
+/*about*/
+.about_contents{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about_contents_img img{
+  width:60%;
+}
+
+
+
 }
